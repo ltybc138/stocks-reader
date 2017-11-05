@@ -1,11 +1,19 @@
 [
     {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxhdpi\\microsoft.png",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\microsoft.png"
+    },
+    {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxhdpi\\logo.png",
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\logo.png"
     },
     {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxhdpi\\background.png",
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\background.png"
+    },
+    {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxhdpi\\tesla.png",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\tesla.png"
     },
     {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxhdpi\\icon.png",

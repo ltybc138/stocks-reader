@@ -48,6 +48,10 @@
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxxhdpi-v4\\spacex.jpg",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\spacex.jpg"
+    },
+    {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png",
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxxhdpi-v4\\apple.jpg",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\apple.jpg"
     },
     {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",

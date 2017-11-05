@@ -4,6 +4,14 @@
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-mdpi\\logo.png"
     },
     {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\tesla.png",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-mdpi\\tesla.png"
+    },
+    {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\microsoft.png",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-mdpi\\microsoft.png"
+    },
+    {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\icon.png",
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-mdpi\\icon.png"
     },

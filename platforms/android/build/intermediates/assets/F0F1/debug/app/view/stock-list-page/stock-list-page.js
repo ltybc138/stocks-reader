@@ -1,32 +1,40 @@
-var view = require("ui/core/view");
+var Observable = require("data/observable").Observable;
+var ObservableArray = require("data-observable-array").ObservableArray;
+
+var page;
+var items = new ObservableArray([]);
+var pageData = new Observable();
 
 function onNavigatingTo(args) {
     console.log("Stock list page started");
 }
 
+exports.onNavigatingTo = onNavigatingTo;
+
 exports.pageLoaded = function(args) {
-    var items = [];
+    page = args.object;
+    page.bindingContext = pageData;
     items.push(
         {
             itemName: "Apple",
-            itemDesc: "Apple stocks"
+            itemDesc: "Apple stocks",
+            itemImage: "~/images/apple.jpg"
         },
         {
             itemName: "Tesla",
-            itemDesc: "Tesla stocks"
+            itemDesc: "Tesla stocks",
+            itemImage: "~/images/tesla.png"
         },
         {
             itemName: "SpaceX",
-            itemDesc: "SpaceX stocks"
+            itemDesc: "SpaceX stocks",
+            itemImage: "~/images/spacex.jpg"
         },
         {
             itemName: "Microsoft",
-            itemDesc: "Microsoft stocks"
+            itemDesc: "Microsoft stocks",
+            itemImage: "~/images/microsoft.png"
         }
-    )
-    var page = args.object;
-    var listview = view.getViewById(page, "listview");
-    listview.items = items;
+    );
+    pageData.set("items", items);
 };
-
-exports.onNavigatingTo = onNavigatingTo;

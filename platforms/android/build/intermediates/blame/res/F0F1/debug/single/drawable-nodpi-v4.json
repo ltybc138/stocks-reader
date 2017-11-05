@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-nodpi-v4\\spacex.jpg",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-nodpi\\spacex.jpg"
+    },
+    {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-nodpi-v4\\apple.jpg",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-nodpi\\apple.jpg"
+    },
+    {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-nodpi-v4\\splash_screen.xml",
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\src\\main\\res\\drawable-nodpi\\splash_screen.xml"
     }
