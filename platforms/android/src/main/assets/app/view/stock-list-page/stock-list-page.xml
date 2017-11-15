@@ -3,6 +3,9 @@
       loaded="pageLoaded" class="page">
     <Page.actionBar>
         <ActionBar title="Stock list" icon="" class="action-bar">
+            <ActionItem tap="onLogin"
+                        ios.systemIcon="9" ios.position="left"
+                        android.systemIcon="ic_menu_share" android.position="actionBar"/>
         </ActionBar>
     </Page.actionBar>
 
@@ -15,12 +18,11 @@
             <lv:ListViewLinearLayout scrollDirection="Vertical"/>
         </lv:RadListView.listViewLayout>
         <lv:RadListView.itemTemplate>
-            <GridLayout class="list-group-item" rows="auto" columns="auto, *">
-                <Image row="0" col="0" src="{{ itemImage }}" class="thumb img-rounded" />
-                <StackLayout row="0" col="1" >
-                    <Label text="{{ itemName }}" class="list-group-item-heading" />
-                    <Label text="{{ itemDesc }}" class="list-group-item-text" />
-                </StackLayout>
+            <GridLayout class="list-group-item" rows="auto" columns="2*, *, *, 2*">
+                <Label row="0" col="0" text="{{ itemName }}" class="list-group-item-heading" />
+                <Label row="0" col="1" text="{{ itemPrice }}" class="list-group-item-text" />
+                <Label row="0" col="2" text="{{ itemChange }}" class="list-group-item-text" />
+                <Button row="0" col="3"  text="more" width="auto" ontap="openStockItemView" class="btn btn-active btn-primary"/>
             </GridLayout>
         </lv:RadListView.itemTemplate>
     </lv:RadListView>

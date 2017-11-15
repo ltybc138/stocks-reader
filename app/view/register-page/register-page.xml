@@ -1,0 +1,16 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="Register" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout class="list-group-item p-20" orientation="vertical">
+        <Label text="Register" verticalAlignment="center" textAlignment="center" fontSize="24px" class="login-logo-sub"/>
+        <TextField hint="Email" keyboardType="email"/>
+        <TextField hint="Username"/>
+        <TextField hint="Password" secure="true"/>
+        <TextField hint="Repeat the pass" secure="true"/>
+        <Button text="Register" class="btn btn-active btn-primary"/>
+        <Button text="Login" ontap="onLogin" class="btn btn-active btn-grey"/>
+    </StackLayout>
+</Page>

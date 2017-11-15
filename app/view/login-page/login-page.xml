@@ -1,0 +1,14 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="Login" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout class="list-group-item p-20" orientation="vertical">
+        <Label text="Login" verticalAlignment="center" textAlignment="center" fontSize="24px" class="login-logo-sub"/>
+        <TextField hint="Username or Email" keyboardType="email"/>
+        <TextField hint="Password" secure="true"/>
+        <Button text="Login" class="btn btn-active btn-primary"/>
+        <Button text="Register" ontap="onRegister" class="btn btn-active btn-grey"/>
+    </StackLayout>
+</Page>

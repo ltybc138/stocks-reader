@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\events_popup_bg.xml",
-        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\Input-2017.1.1030-dev-release\\res\\drawable\\events_popup_bg.xml"
-    },
-    {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\data_form_invalid_background.xml",
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\Input-2017.1.1030-dev-release\\res\\drawable\\data_form_invalid_background.xml"
+    },
+    {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\events_popup_bg.xml",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\Input-2017.1.1030-dev-release\\res\\drawable\\events_popup_bg.xml"
     },
     {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\autocomplete_default_background.xml",
@@ -44,12 +44,12 @@
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\shade_corner.xml",
         "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\List-2017.1.1030-dev-release\\res\\drawable\\shade_corner.xml"
+    },
+    {
+        "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "C:\\NativeScript projects\\stocks-reader\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable\\abc_ic_search_api_material.xml",

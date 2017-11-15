@@ -155,4 +155,5 @@ C:\NativeScript projects\stocks-reader\platforms\android\src\main\assets\app\tns
 C:\NativeScript projects\stocks-reader\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\xhr\xhr.js
 C:\NativeScript projects\stocks-reader\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\xml\xml.js
 C:\NativeScript projects\stocks-reader\platforms\android\src\main\assets\app\view\stock-list-page\stock-list-page.js
+C:\NativeScript projects\stocks-reader\platforms\android\src\main\assets\app\view\stock-view-page\stock-view-page.js
 C:\NativeScript projects\stocks-reader\platforms\android\src\main\assets\app\view\welcome-page\welcome-page.js

@@ -21,6 +21,7 @@
                     <Label text="{{ itemName }}" class="list-group-item-heading" />
                     <Label text="{{ itemDesc }}" class="list-group-item-text" />
                 </StackLayout>
+                <Button row="0" col="2" text="more" ontap="openStockItemView" class="btn btn-active btn-primary"/>
             </GridLayout>
         </lv:RadListView.itemTemplate>
     </lv:RadListView>
