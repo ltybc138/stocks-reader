@@ -19,34 +19,42 @@ exports.pageLoaded = function(args) {
             {
                 itemName: "Apple",
                 itemDesc: "Apple stocks",
-                itemPrice: "90.88",
+                itemPrice: (Math.random() * 100).toFixed(2),
                 itemChange: "0.26",
                 itemImage: "res://apple"
             },
             {
                 itemName: "Tesla",
                 itemDesc: "Tesla stocks",
-                itemPrice: "120.86",
+                itemPrice: (Math.random() * 100).toFixed(2),
                 itemChange: "0.8",
                 itemImage: "res://tesla"
             },
             {
                 itemName: "SpaceX",
                 itemDesc: "SpaceX stocks",
-                itemPrice: "46.90",
+                itemPrice: (Math.random() * 100).toFixed(2),
                 itemChange: "-1.56",
                 itemImage: "res://spacex"
             },
             {
                 itemName: "Microsoft",
                 itemDesc: "Microsoft stocks",
-                itemPrice: "2.22",
+                itemPrice: (Math.random() * 100).toFixed(2),
                 itemChange: "0.001",
                 itemImage: "res://microsoft"
             }
         );
     }
     pageData.set("items", items);
+};
+
+exports.onPullToRefreshInitiated = function(args) {
+    setTimeout(function() {
+        var listView = args.object;
+        listView.notifyPullToRefreshFinished();
+        console.log("Pulled");
+    }, 1000);
 };
 
 exports.openStockItemView = function() {

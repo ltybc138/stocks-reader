@@ -5,7 +5,7 @@
         <ActionBar title="Stock list" icon="" class="action-bar">
             <ActionItem tap="onLogin"
                         ios.systemIcon="9" ios.position="left"
-                        android.systemIcon="ic_menu_share" android.position="actionBar"/>
+                        android.systemIcon="ic_menu_login" android.position="actionBar"/>
         </ActionBar>
     </Page.actionBar>
 
@@ -13,7 +13,7 @@
         <Label text="This is just stock list" class="h1 text-center"/>
     </StackLayout>
 
-    <lv:RadListView items="{{ items }}" class="list-group">
+    <lv:RadListView items="{{ items }}" pullToRefresh="true" pullToRefreshInitiated="onPullToRefreshInitiated" class="list-group">
         <lv:RadListView.listViewLayout>
             <lv:ListViewLinearLayout scrollDirection="Vertical"/>
         </lv:RadListView.listViewLayout>
