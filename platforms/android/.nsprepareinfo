@@ -1,9 +1,9 @@
 {
-	"time": "Thu Nov 16 2017 11:34:13 GMT+0500 (Russia TZ 4 Standard Time)",
+	"time": "Thu Nov 16 2017 20:31:05 GMT+0500 (Russia TZ 4 Standard Time)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
-	"changesRequireBuild": false,
+	"changesRequireBuild": true,
 	"projectFileHash": "bdec7adec406f20fb3c23bdade5501623f5816bfee6e19f9f9495190ecfe3dda",
-	"changesRequireBuildTime": "Tue Nov 14 2017 20:10:48 GMT+0500 (Russia TZ 4 Standard Time)"
+	"changesRequireBuildTime": "Thu Nov 16 2017 20:31:05 GMT+0500 (Russia TZ 4 Standard Time)"
 }

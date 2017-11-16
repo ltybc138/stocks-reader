@@ -13,7 +13,7 @@
         <Label text="This is just stock list" class="h1 text-center"/>
     </StackLayout>
 
-    <lv:RadListView items="{{ items }}" pullToRefresh="true" pullToRefreshInitiated="onPullToRefreshInitiated" class="list-group">
+    <lv:RadListView items="{{ items }}" itemTap="onStackItemTap" pullToRefresh="true" pullToRefreshInitiated="onPullToRefreshInitiated" class="list-group">
         <lv:RadListView.listViewLayout>
             <lv:ListViewLinearLayout scrollDirection="Vertical"/>
         </lv:RadListView.listViewLayout>

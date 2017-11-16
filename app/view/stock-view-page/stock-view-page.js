@@ -1,5 +1,6 @@
+var stackItem;
 function onNavigatingTo(args) {
-    console.log(args.context.info);
+    console.log(JSON.stringify(args.context));
     console.log("Stock view page started");
 }
 
